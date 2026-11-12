@@ -1,0 +1,71 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo04",
+ "title": "윤슬의 해변 콘서트",
+ "speaker": "윤슬",
+ "viral": "가상 숏폼 '윤슬 해변 버스킹'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "윤슬 윤슬 반짝이들아 바다가 불러요 노래하러 와요",
+   "file": "board.m4a",
+   "ms": 9300
+  },
+  {
+   "moment": "start",
+   "line": "윤슬 윤슬 반짝반짝",
+   "file": "start.m4a",
+   "ms": 3400
+  },
+  {
+   "moment": "door",
+   "line": "문이 열렸어요! 파도 소리가 들려요, 반짝이!",
+   "file": "door.m4a",
+   "ms": 4400
+  },
+  {
+   "moment": "park",
+   "line": "주차 끝! 오늘 버스킹도 고마웠어요, 반짝이!",
+   "file": "park.m4a",
+   "ms": 4600
+  },
+  {
+   "moment": "wiper",
+   "line": "비 내리는 소리도 우리 노래예요, 반짝이!",
+   "file": "wiper.m4a",
+   "ms": 3700
+  },
+  {
+   "moment": "climate",
+   "line": "온도 맞췄어요! 여름처럼 따뜻하게요, 반짝이!",
+   "file": "climate.m4a",
+   "ms": 4900
+  },
+  {
+   "moment": "charge",
+   "line": "충전 시작! 윤슬도 반짝반짝 채우는 중이에요!",
+   "file": "charge.m4a",
+   "ms": 4800
+  },
+  {
+   "moment": "near",
+   "line": "곧 바다에 도착해요. 노래를 준비하고 있어요!",
+   "file": "near.m4a",
+   "ms": 4200
+  },
+  {
+   "moment": "arrive",
+   "line": "고마워요 반짝이",
+   "file": "arrive.m4a",
+   "ms": 3200
+  },
+  {
+   "moment": "cold",
+   "line": "바깥이 쌀쌀해요. 따뜻하게 다녀요, 반짝이!",
+   "file": "cold.m4a",
+   "ms": 4700
+  }
+ ],
+ "cover": "cover.jpg"
+}

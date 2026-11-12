@@ -1,0 +1,59 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo22",
+ "title": "벼락의 타석",
+ "speaker": "벼락",
+ "viral": "가상 숏폼 '벼락 타석 루틴'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "벼락! 벼락! 벼락! 가람 물총새 4번 타자!",
+   "file": "board.m4a",
+   "ms": 7500
+  },
+  {
+   "moment": "start",
+   "line": "벼락! 벼락! 날려라 벼락!",
+   "file": "start.m4a",
+   "ms": 3300
+  },
+  {
+   "moment": "door",
+   "line": "문 열렸다! 식구들, 어서 들어와!",
+   "file": "door.m4a",
+   "ms": 3500
+  },
+  {
+   "moment": "park",
+   "line": "주차 완료! 오늘도 안타 하나 쳤다, 식구들!",
+   "file": "park.m4a",
+   "ms": 4200
+  },
+  {
+   "moment": "charge",
+   "line": "충전 시작! 나도 같이 힘 채우는 중이야!",
+   "file": "charge.m4a",
+   "ms": 3800
+  },
+  {
+   "moment": "near",
+   "line": "곧 도착이야. 타석에 들어갈 준비 하자, 식구들!",
+   "file": "near.m4a",
+   "ms": 4400
+  },
+  {
+   "moment": "arrive",
+   "line": "벼락! 벼락! 넘겨라 벼락!",
+   "file": "arrive.m4a",
+   "ms": 2740
+  },
+  {
+   "moment": "charge_done",
+   "line": "배터리 가득! 다음 타석도 문제없어, 식구들!",
+   "file": "charge_done.m4a",
+   "ms": 4200
+  }
+ ],
+ "cover": "cover.jpg"
+}

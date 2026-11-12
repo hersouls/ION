@@ -1,0 +1,59 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo25",
+ "title": "질주 슬라이딩",
+ "speaker": "질주",
+ "viral": "가상 숏폼 '질주 도루 챌린지'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "질주! 질주! 질주! 두루미 날개 1번 타자!",
+   "file": "board.m4a",
+   "ms": 5500
+  },
+  {
+   "moment": "start",
+   "line": "질주! 질주! 달려라 질주!",
+   "file": "start.m4a",
+   "ms": 3400
+  },
+  {
+   "moment": "door",
+   "line": "문 열렸다! 한 베이스 더, 어서 타!",
+   "file": "door.m4a",
+   "ms": 3500
+  },
+  {
+   "moment": "park",
+   "line": "세이프! 주차 완료, 날개들!",
+   "file": "park.m4a",
+   "ms": 3300
+  },
+  {
+   "moment": "wiper",
+   "line": "비 와도 도루는 계속된다, 날개들!",
+   "file": "wiper.m4a",
+   "ms": 3300
+  },
+  {
+   "moment": "near",
+   "line": "홈이 코앞이야. 조금만 더 달리자, 날개들!",
+   "file": "near.m4a",
+   "ms": 4000
+  },
+  {
+   "moment": "arrive",
+   "line": "세이프! 질주!",
+   "file": "arrive.m4a",
+   "ms": 2370
+  },
+  {
+   "moment": "rest",
+   "line": "오래 달렸어! 잠깐 물 마시고 쉬었다 가자, 날개들!",
+   "file": "rest.m4a",
+   "ms": 4600
+  }
+ ],
+ "cover": "cover.jpg"
+}

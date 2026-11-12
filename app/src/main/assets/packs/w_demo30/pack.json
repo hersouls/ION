@@ -1,0 +1,71 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo30",
+ "title": "네온 라디오",
+ "speaker": "선셋 라디오",
+ "viral": "가상 숏폼 '네온 다이얼 챌린지'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "선셋 라디오 라디오! 청취자 여러분 안녕",
+   "file": "board.m4a",
+   "ms": 6400
+  },
+  {
+   "moment": "start",
+   "line": "선셋 라디오 켜져 있어요",
+   "file": "start.m4a",
+   "ms": 2580
+  },
+  {
+   "moment": "door",
+   "line": "문이 열렸어요. 새 청취자님 환영해요!",
+   "file": "door.m4a",
+   "ms": 3900
+  },
+  {
+   "moment": "park",
+   "line": "오늘 방송은 여기까지! 안전하게 내리세요, 청취자!",
+   "file": "park.m4a",
+   "ms": 5000
+  },
+  {
+   "moment": "wiper",
+   "line": "빗소리 신청곡이 들어왔어요, 청취자!",
+   "file": "wiper.m4a",
+   "ms": 3900
+  },
+  {
+   "moment": "climate",
+   "line": "온도 신청 접수! 딱 좋게 맞췄어요, 청취자!",
+   "file": "climate.m4a",
+   "ms": 4800
+  },
+  {
+   "moment": "charge",
+   "line": "충전 시간이에요! 광고 없이 쉬어 가요, 청취자!",
+   "file": "charge.m4a",
+   "ms": 4900
+  },
+  {
+   "moment": "near",
+   "line": "곧 마지막 곡이에요. 도착이 가까워요, 청취자!",
+   "file": "near.m4a",
+   "ms": 4800
+  },
+  {
+   "moment": "arrive",
+   "line": "선셋 라디오 오늘도 온에어",
+   "file": "arrive.m4a",
+   "ms": 4300
+  },
+  {
+   "moment": "cold",
+   "line": "바깥 기온이 뚝! 따뜻하게 입어요, 청취자!",
+   "file": "cold.m4a",
+   "ms": 4400
+  }
+ ],
+ "cover": "cover.jpg"
+}

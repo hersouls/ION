@@ -1,0 +1,71 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo23",
+ "title": "불꽃의 마운드",
+ "speaker": "불꽃",
+ "viral": "가상 숏폼 '불꽃 마운드 입장'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "불꽃! 불꽃! 불꽃! 도깨비 군단 에이스 등장!",
+   "file": "board.m4a",
+   "ms": 7600
+  },
+  {
+   "moment": "start",
+   "line": "불꽃! 불꽃! 던져라 불꽃!",
+   "file": "start.m4a",
+   "ms": 3700
+  },
+  {
+   "moment": "door",
+   "line": "불펜 문 열렸다! 어서 타, 군단!",
+   "file": "door.m4a",
+   "ms": 3600
+  },
+  {
+   "moment": "park",
+   "line": "삼진 아웃! 주차 끝, 오늘도 완벽해, 군단!",
+   "file": "park.m4a",
+   "ms": 4300
+  },
+  {
+   "moment": "wiper",
+   "line": "비 와도 던진다! 불꽃은 안 꺼져, 군단!",
+   "file": "wiper.m4a",
+   "ms": 4100
+  },
+  {
+   "moment": "charge",
+   "line": "충전 시작! 불꽃도 에너지를 채우는 중이야!",
+   "file": "charge.m4a",
+   "ms": 3800
+  },
+  {
+   "moment": "near",
+   "line": "마지막 이닝이야. 곧 도착, 힘내자 군단!",
+   "file": "near.m4a",
+   "ms": 3900
+  },
+  {
+   "moment": "arrive",
+   "line": "게임 셋! 불꽃!",
+   "file": "arrive.m4a",
+   "ms": 2120
+  },
+  {
+   "moment": "soc_low",
+   "line": "불꽃이 약해졌어, 군단. 충전소를 한번 보자!",
+   "file": "soc_low.m4a",
+   "ms": 4500
+  },
+  {
+   "moment": "rest",
+   "line": "두 시간을 던졌다! 잠깐 쉬었다 가자, 군단!",
+   "file": "rest.m4a",
+   "ms": 4300
+  }
+ ],
+ "cover": "cover.jpg"
+}

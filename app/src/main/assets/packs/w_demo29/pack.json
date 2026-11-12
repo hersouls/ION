@@ -1,0 +1,71 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo29",
+ "title": "루비 런웨이",
+ "speaker": "루비레일",
+ "viral": "가상 숏폼 '루비 런웨이 워킹'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "루비레일! 루비레일! 루비 승객! 열차가 들어온다",
+   "file": "board.m4a",
+   "ms": 6900
+  },
+  {
+   "moment": "start",
+   "line": "루비레일 달려라 루비레일",
+   "file": "start.m4a",
+   "ms": 3400
+  },
+  {
+   "moment": "door",
+   "line": "문이 열립니다! 루비 승객, 환영해요!",
+   "file": "door.m4a",
+   "ms": 3500
+  },
+  {
+   "moment": "park",
+   "line": "정차했습니다! 오늘 무대도 최고였어요!",
+   "file": "park.m4a",
+   "ms": 3600
+  },
+  {
+   "moment": "wiper",
+   "line": "비가 와도 열차는 정시 운행이에요, 승객!",
+   "file": "wiper.m4a",
+   "ms": 3800
+  },
+  {
+   "moment": "charge",
+   "line": "충전 구간이에요! 열차도 잠깐 쉬어요!",
+   "file": "charge.m4a",
+   "ms": 3700
+  },
+  {
+   "moment": "near",
+   "line": "곧 종착역이에요, 루비 승객! 앙코르 준비!",
+   "file": "near.m4a",
+   "ms": 4000
+  },
+  {
+   "moment": "arrive",
+   "line": "앙코르 앙코르 루비레일!",
+   "file": "arrive.m4a",
+   "ms": 4300
+  },
+  {
+   "moment": "soc_low",
+   "line": "에너지가 부족해요, 승객! 충전 구간을 찾아봐요!",
+   "file": "soc_low.m4a",
+   "ms": 4500
+  },
+  {
+   "moment": "rest",
+   "line": "오래 달렸어요! 휴게 구간에서 쉬어 가요, 승객!",
+   "file": "rest.m4a",
+   "ms": 4300
+  }
+ ],
+ "cover": "cover.jpg"
+}

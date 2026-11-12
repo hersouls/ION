@@ -1,0 +1,59 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo24",
+ "title": "달빛 홈런",
+ "speaker": "달빛",
+ "viral": "가상 숏폼 '달빛 담장 넘기기'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "달빛! 달빛! 달빛! 부엉이 마을 해결사 등장!",
+   "file": "board.m4a",
+   "ms": 8300
+  },
+  {
+   "moment": "start",
+   "line": "달빛! 달빛! 쳐라 달빛!",
+   "file": "start.m4a",
+   "ms": 4500
+  },
+  {
+   "moment": "door",
+   "line": "문 열렸어요! 마을 주민, 어서 들어와요!",
+   "file": "door.m4a",
+   "ms": 4000
+  },
+  {
+   "moment": "park",
+   "line": "주차 끝! 오늘 경기도 내가 해결했어요!",
+   "file": "park.m4a",
+   "ms": 3700
+  },
+  {
+   "moment": "climate",
+   "line": "온도 맞췄어요! 마을 주민이 편해야 내가 편해요!",
+   "file": "climate.m4a",
+   "ms": 4500
+  },
+  {
+   "moment": "charge",
+   "line": "충전 시작! 달빛도 같이 충전 중이에요!",
+   "file": "charge.m4a",
+   "ms": 4100
+  },
+  {
+   "moment": "arrive",
+   "line": "오늘 밤도 달빛!",
+   "file": "arrive.m4a",
+   "ms": 4600
+  },
+  {
+   "moment": "cold",
+   "line": "밖이 추워요! 따뜻하게 입어요, 우리 마을 주민!",
+   "file": "cold.m4a",
+   "ms": 4400
+  }
+ ],
+ "cover": "cover.jpg"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ION Studio와 바로 잇는 길(설정 › ION Studio 연결)에서만 써요: 운전자가 주소와 API 키를 적어 이은 뒤에 목록과 파일을 받아요.
+         보내는 것은 키뿐이에요(차의 값 · 위치는 보내지 않아요). 잇지 않으면 네트워크를 쓰지 않아요. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Vehicle State SDK (읽기 권한만). 권한은 Pleos 앱 마켓 심사에서 승인된 것만 써야 해요. -->
+    <uses-permission android:name="pleos.car.permission.CAR_ENERGY" />
+    <uses-permission android:name="pleos.car.permission.CAR_SEATS" />
+    <uses-permission android:name="pleos.car.permission.CAR_POWERTRAIN" />
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <!-- 환경 신호(비 · 안개 추정): 전조등 · 안개등 = CAR_LIGHTS, 김서림 제거 · 공조 = CAR_CLIMATE(문서), 와이퍼 = CAR_WINDOWS.
+         와이퍼는 에뮬레이터 2.1의 Vehicle Service가 CAR_WINDOWS 없이는 "checkWiperStateCapabilities need Permission"으로 막아요(2026-11-13 확인).
+         AAOS 이름(READ_WINDSHIELD_WIPERS)도 아래에 함께 선언해요. 창문을 여닫거나 읽는 API는 부르지 않아요. -->
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />
+    <uses-permission android:name="pleos.car.permission.CAR_WINDOWS" />
+    <uses-permission android:name="pleos.car.permission.CAR_CLIMATE" />
+    <!-- 차의 몸(하차 알림 · 주행 후 점검): 문 · 후드 · 트렁크는 CAR_DOORS, 워셔액 부족은 CAR_SAFETY, 온도 표시 단위는 CAR_INFO.
+         Pleos 에뮬레이터가 이 셋 없이는 "need Permission"으로 막아서 확인했어요(2026-11-07). 읽기만 해요. -->
+    <uses-permission android:name="pleos.car.permission.CAR_DOORS" />
+    <uses-permission android:name="pleos.car.permission.CAR_SAFETY" />
+    <uses-permission android:name="pleos.car.permission.CAR_INFO" />
+    <!-- 공식 Vehicle SDK Sample App(pleos-sample-vehicle-app)의 매니페스트가 같은 영역에 선언하는 공개 읽기 권한이에요(2026-11-12 대조, docs/PLEOS.md 부록).
+         오도미터 · 트립 = CAR_MILEAGE, 와이퍼 = READ_WINDSHIELD_WIPERS, 온도 표시 단위 = READ_CAR_DISPLAY_UNITS(AAOS 속성의 권한 이름과 같아요).
+         에뮬레이터 2.1(Vehicle Service 2.3.22)은 이 이름들을 정의하지 않고 위의 CAR_DRIVE · CAR_INFO를 요구해서, 둘 다 선언해요. 읽기만 해요.
+         권한 → API → 화면 표는 docs/DATA.md "권한 근거"예요. -->
+    <uses-permission android:name="pleos.car.permission.CAR_MILEAGE" />
+    <uses-permission android:name="pleos.car.permission.READ_WINDSHIELD_WIPERS" />
+    <uses-permission android:name="pleos.car.permission.READ_CAR_DISPLAY_UNITS" />
+    <!-- 경고등(Safety.*Telltales*)과 바퀴별 공기압(Tire.*TirePressure*)은 공식 샘플이 공개 목록에서 막아 둔 API라서 제출 앱은 부르지 않고,
+         PRIVATE_CAR_SAFETY · CAR_TIRES도 선언하지 않아요(2026-11-13, Pleos API policy: 승인되지 않은 권한 선언 · 호출은 심사 탈락).
+         점검 화면은 서비스센터 기록으로 보여 줘요. 앱 마켓이 승인하면 다시 붙여요. -->
+    <!-- NaviHelper SDK: 경로 이벤트 읽기 -->
+    <!-- 차량 표준(AAOS): 외기온(CAR_EXTERIOR_ENVIRONMENT)과 충전 플러그 연결(CAR_ENERGY_PORTS). Pleos SDK에는 없는 값이에요.
+         앱 마켓 심사에서 승인돼야 하고, 승인되지 않으면 이 두 값만 "—"로 보여요(앱의 나머지는 그대로예요). 근거는 docs/DATA.md. -->
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_ENVIRONMENT" />
+    <uses-permission android:name="android.car.permission.CAR_ENERGY_PORTS" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <!-- 마이 트립의 정류장 · 캘린더의 약속 장소를 "안내" 단추로 내비에 보내요(requestRoute, 2026-11-11). 운전자가 누른 뒤에만 불러요. 앱 마켓 심사에서 승인돼야 해요. -->
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+    <!-- SpeechToText SDK(왼쪽 ION 메뉴의 말하기). 문서에는 없고, 권한 없이 initialize하면 SecurityException이
+         "Permission pleos.car.permission.STT_SERVICE is required"라고 알려 줘서(Pleos 에뮬레이터 2.1.0, 2026-11-07) 넣었어요.
+         앱 마켓 심사에서 승인돼야 해요. -->
+    <uses-permission android:name="pleos.car.permission.STT_SERVICE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RoadMemory">
+        <uses-library android:name="android.car" android:required="false" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden"
+            android:resizeableActivity="true"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <!-- AAOS: 주행 중에도 열 수 있는 화면(카드 한 장 · 큰 글자 · 입력 없음). 화면 방향은 지정하지 않아요:
+                 Pleos Connect는 방향 설정과 창 크기로 한 창(portrait) · 두 창(landscape)을 정하고, 앱은 둘 다에 맞아야 해요. -->
+            <meta-data
+                android:name="distractionOptimized"
+                android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Gleo Interface: component = "activity" 함수. action 이름은 assets/schema.json의 function.name과 같아요. -->
+            <intent-filter>
+                <action android:name="SHOW_ROAD_MEMORY" />
+                <action android:name="OPEN_CHARGING_LOUNGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Gleo Interface: component = "service" 함수는 브로드캐스트로 와요. -->
+        <receiver
+            android:name=".gleo.GleoReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="SUGGEST_CHARGING_STOP" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

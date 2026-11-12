@@ -1,0 +1,71 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo27",
+ "title": "톡톡 라임",
+ "speaker": "라임피즈",
+ "viral": "가상 숏폼 '톡톡 라임 챌린지'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "라임피즈! 라임피즈! 탄산즈! 톡톡 튀는 우리가 왔어",
+   "file": "board.m4a",
+   "ms": 5600
+  },
+  {
+   "moment": "start",
+   "line": "톡톡 톡톡 라임피즈 탄산즈 모여라 라임피즈",
+   "file": "start.m4a",
+   "ms": 5400
+  },
+  {
+   "moment": "door",
+   "line": "문이 열렸어요! 탄산즈, 어서 와요!",
+   "file": "door.m4a",
+   "ms": 3500
+  },
+  {
+   "moment": "park",
+   "line": "주차 끝! 오늘도 같이해서 즐거웠어요, 탄산즈!",
+   "file": "park.m4a",
+   "ms": 4400
+  },
+  {
+   "moment": "wiper",
+   "line": "비가 와도 우린 팡팡 터져요, 탄산즈!",
+   "file": "wiper.m4a",
+   "ms": 3500
+  },
+  {
+   "moment": "climate",
+   "line": "온도 맞췄어요! 시원하게 톡톡 달려요!",
+   "file": "climate.m4a",
+   "ms": 3600
+  },
+  {
+   "moment": "charge",
+   "line": "충전 시작! 거품 가득 채우는 중이에요!",
+   "file": "charge.m4a",
+   "ms": 3600
+  },
+  {
+   "moment": "near",
+   "line": "곧 도착이에요, 탄산즈! 기대돼요!",
+   "file": "near.m4a",
+   "ms": 3600
+  },
+  {
+   "moment": "arrive",
+   "line": "탄산즈 사랑해!",
+   "file": "arrive.m4a",
+   "ms": 2770
+  },
+  {
+   "moment": "charge_done",
+   "line": "가득 찼어요! 거품이 팡팡, 탄산즈!",
+   "file": "charge_done.m4a",
+   "ms": 3900
+  }
+ ],
+ "cover": "cover.jpg"
+}

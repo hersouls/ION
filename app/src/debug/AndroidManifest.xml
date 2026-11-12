@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 디버그 빌드에만 들어가요. release APK에는 없어요. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 가족 위치를 우회 경로(제안자의 위치 서비스)로 읽는 시험용이에요. release 매니페스트에는 INTERNET이 없어요. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application>
+        <provider
+            android:name="app.roadmemory.car.debug.FamilyInit"
+            android:authorities="${applicationId}.familyinit"
+            android:exported="false" />
+        <receiver
+            android:name="app.roadmemory.car.debug.FamilyDebugReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="app.roadmemory.car.DEBUG_FAMILY" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="app.roadmemory.car.debug.SpeechFeedReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="app.roadmemory.car.DEBUG_SPEECH" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="app.roadmemory.car.debug.NaviDebugReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="app.roadmemory.car.DEBUG_NAVI" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="app.roadmemory.car.debug.ArriveDebugReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="app.roadmemory.car.DEBUG_ARRIVE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="app.roadmemory.car.debug.DataProbeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="app.roadmemory.car.DEBUG_PROBE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="app.roadmemory.car.debug.PlayDebugReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="app.roadmemory.car.DEBUG_PLAY" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="app.roadmemory.car.debug.PackDebugReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="app.roadmemory.car.DEBUG_PACK" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

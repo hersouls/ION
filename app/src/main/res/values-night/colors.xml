@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 다크 값. 설명은 values/colors.xml. -->
+<resources>
+    <color name="ivi_background_primary">#313236</color>
+    <color name="ivi_background_secondary">#1D1E21</color>
+    <color name="ivi_background_popup">#131417</color>
+
+    <color name="ivi_surface_basic">#131417</color>
+    <color name="ivi_surface_low">#131417</color>
+    <color name="ivi_surface_high">#313236</color>
+    <color name="ivi_surface_accent">#44464E</color>
+
+    <color name="ivi_text_primary">#F7F8FA</color>
+    <color name="ivi_text_secondary">#C7C9CE</color>
+    <color name="ivi_text_tertiary">#A4A8AE</color>
+    <color name="ivi_text_quaternary">#686A72</color>
+    <color name="ivi_text_on_filled">#FFFFFF</color>
+
+    <color name="ivi_button_basic_enabled">#3C3D42</color>
+    <color name="ivi_button_basic_pressed">#44464E</color>
+    <color name="ivi_button_filled_enabled">#44464E</color>
+    <color name="ivi_button_filled_pressed">#686A72</color>
+
+    <color name="ivi_informative_active">#00E074</color>
+    <color name="ivi_informative_positive">#0082FF</color>
+    <color name="ivi_informative_negative">#FF4C28</color>
+</resources>

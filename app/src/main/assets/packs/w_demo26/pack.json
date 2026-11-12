@@ -1,0 +1,59 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo26",
+ "title": "파도의 다이빙",
+ "speaker": "파도",
+ "viral": "가상 숏폼 '파도 다이빙 캐치'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "파도! 파도! 파도! 범고래 파티 중견수 등장!",
+   "file": "board.m4a",
+   "ms": 9200
+  },
+  {
+   "moment": "start",
+   "line": "파도! 파도! 밀려와라 파도!",
+   "file": "start.m4a",
+   "ms": 3900
+  },
+  {
+   "moment": "door",
+   "line": "문 열렸어요! 파티에 어서 오세요!",
+   "file": "door.m4a",
+   "ms": 3300
+  },
+  {
+   "moment": "park",
+   "line": "주차 완료! 오늘도 다이빙 캐치 성공이에요!",
+   "file": "park.m4a",
+   "ms": 4000
+  },
+  {
+   "moment": "charge",
+   "line": "충전 시작! 파도도 숨 한번 돌릴게요!",
+   "file": "charge.m4a",
+   "ms": 3900
+  },
+  {
+   "moment": "near",
+   "line": "곧 도착해요! 마지막 뜬공 잡으러 가요!",
+   "file": "near.m4a",
+   "ms": 3700
+  },
+  {
+   "moment": "arrive",
+   "line": "잡았다! 파도!",
+   "file": "arrive.m4a",
+   "ms": 3600
+  },
+  {
+   "moment": "soc_low",
+   "line": "파도가 약해졌어요. 충전소에서 힘 채워요!",
+   "file": "soc_low.m4a",
+   "ms": 4200
+  }
+ ],
+ "cover": "cover.jpg"
+}

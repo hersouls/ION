@@ -1,0 +1,65 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo01",
+ "title": "섬광의 결승골",
+ "speaker": "섬광",
+ "viral": "가상 숏폼 '섬광 결승골 세리머니'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "늑대 무리 스트라이커 등장!",
+   "file": "board.m4a",
+   "ms": 3400
+  },
+  {
+   "moment": "start",
+   "line": "섬광! 섬광! 쏘아라 섬광!",
+   "file": "start.m4a",
+   "ms": 4000
+  },
+  {
+   "moment": "door",
+   "line": "터널 문이 열렸다! 어서 타, 무리!",
+   "file": "door.m4a",
+   "ms": 3500
+  },
+  {
+   "moment": "park",
+   "line": "경기 끝! 오늘도 같이 뛰어 줘서 고마워, 무리!",
+   "file": "park.m4a",
+   "ms": 4200
+  },
+  {
+   "moment": "wiper",
+   "line": "비 오는 날 경기가 제일 재밌지, 무리!",
+   "file": "wiper.m4a",
+   "ms": 3600
+  },
+  {
+   "moment": "charge",
+   "line": "하프타임! 충전하면서 숨 돌리자, 무리!",
+   "file": "charge.m4a",
+   "ms": 4100
+  },
+  {
+   "moment": "near",
+   "line": "곧 도착이야. 결승골 넣을 준비를 하자, 무리!",
+   "file": "near.m4a",
+   "ms": 4300
+  },
+  {
+   "moment": "arrive",
+   "line": "골문을 열어라 섬광!",
+   "file": "arrive.m4a",
+   "ms": 4800
+  },
+  {
+   "moment": "soc_low",
+   "line": "체력이 떨어졌어, 무리! 충전소 보고 가자!",
+   "file": "soc_low.m4a",
+   "ms": 4300
+  }
+ ],
+ "cover": "cover.jpg"
+}

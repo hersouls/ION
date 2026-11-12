@@ -1,0 +1,51 @@
+{
+  "packageName": "app.roadmemory.car",
+  "appDescription": "ION is an in-car assistant that watches the car's own signals (battery, seats, doors, route) and brings back what this car saved from past trips to the same place.",
+  "version": "0.1.0",
+  "actionCalls": [
+    {
+      "type": "function",
+      "function": {
+        "name": "SHOW_ROAD_MEMORY",
+        "description": "Shows the trips this car has saved to the place the driver is heading to (or names) and plays the songs from that trip. If no trip to that place is saved, it says so and shows nothing made up.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "place": {
+              "type": "string",
+              "description": "The name of the place the driver wants to remember, if they mention one."
+            }
+          },
+          "required": []
+        },
+        "component": "activity"
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "OPEN_CHARGING_LOUNGE",
+        "description": "Opens the charging screen with the battery level, remaining range and the charge port and plug state while the car is parked or charging.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        },
+        "component": "activity"
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "SUGGEST_CHARGING_STOP",
+        "description": "Tells whether the battery is estimated to last until the destination (the navigation's own estimate) and, when it may not, suggests looking at charging stops. It never changes the route.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        },
+        "component": "service"
+      }
+    }
+  ]
+}

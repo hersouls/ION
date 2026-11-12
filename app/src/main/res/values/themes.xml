@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.RoadMemory" parent="android:Theme.Material.NoActionBar" />
+</resources>

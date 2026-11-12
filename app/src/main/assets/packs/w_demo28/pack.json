@@ -1,0 +1,65 @@
+{
+ "format": "ion-pack/1",
+ "id": "w_demo28",
+ "title": "별빛 오르골",
+ "speaker": "오르골",
+ "viral": "가상 숏폼 '별빛 오르골 커버'",
+ "voice": "synthetic",
+ "moments": [
+  {
+   "moment": "board",
+   "line": "별지기 별지기 어서 와요 오르골이 기다렸어요",
+   "file": "board.m4a",
+   "ms": 8800
+  },
+  {
+   "moment": "start",
+   "line": "오르골 오르골 들려줄게요",
+   "file": "start.m4a",
+   "ms": 5000
+  },
+  {
+   "moment": "door",
+   "line": "문이 열렸어요. 별빛이 쏟아져요, 별지기.",
+   "file": "door.m4a",
+   "ms": 4500
+  },
+  {
+   "moment": "park",
+   "line": "주차했어요. 오늘 밤도 함께해서 고마워요.",
+   "file": "park.m4a",
+   "ms": 4200
+  },
+  {
+   "moment": "climate",
+   "line": "온도를 맞췄어요. 포근하게 가요, 별지기.",
+   "file": "climate.m4a",
+   "ms": 4500
+  },
+  {
+   "moment": "charge",
+   "line": "충전을 시작해요. 별빛도 천천히 채워져요.",
+   "file": "charge.m4a",
+   "ms": 4500
+  },
+  {
+   "moment": "near",
+   "line": "곧 도착해요. 오늘도 별이 예뻤어요, 별지기.",
+   "file": "near.m4a",
+   "ms": 4600
+  },
+  {
+   "moment": "arrive",
+   "line": "도착했어요. 오늘 밤도 안녕, 별지기.",
+   "file": "arrive.m4a",
+   "ms": 4200
+  },
+  {
+   "moment": "cold",
+   "line": "밖이 추워요. 따뜻하게 입어요, 별지기.",
+   "file": "cold.m4a",
+   "ms": 4200
+  }
+ ],
+ "cover": "cover.jpg"
+}

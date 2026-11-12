@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Pleos Connect UI Design Guide(Foundations › Colors)의 토큰 이름을 그대로 써요: 접두사 ivi, snake_case.
+  · informative_* 는 가이드가 hex를 적어 둔 값 그대로예요.
+  · 나머지는 가이드 이미지의 스와치와 scale 이름(basic_00~700)에서 읽은 값이고, 일부(text_* · button_basic_*)는 근사치예요.
+    정확한 값은 Pleos 디자인 토큰이 오면 이 파일만 바꿔요. 다크 값은 values-night/colors.xml.
+  · 가이드에 강조색 항목은 없어요. 주 버튼은 회색 계열 button_filled(basic_600)이에요.
+-->
+<resources>
+    <color name="ivi_background_primary">#FFFFFF</color>
+    <color name="ivi_background_secondary">#F7F8FA</color>
+    <color name="ivi_background_popup">#FFFFFF</color>
+
+    <color name="ivi_surface_basic">#FFFFFF</color>
+    <color name="ivi_surface_low">#F7F8FA</color>
+    <color name="ivi_surface_high">#EDEEF2</color>
+    <color name="ivi_surface_accent">#E0E1E6</color>
+
+    <color name="ivi_text_primary">#131417</color>
+    <color name="ivi_text_secondary">#44464E</color>
+    <color name="ivi_text_tertiary">#686A72</color>
+    <color name="ivi_text_quaternary">#A4A8AE</color>
+    <color name="ivi_text_on_filled">#FFFFFF</color>
+
+    <color name="ivi_button_basic_enabled">#F2F2F3</color>
+    <color name="ivi_button_basic_pressed">#E8E8E9</color>
+    <color name="ivi_button_filled_enabled">#44464E</color>
+    <color name="ivi_button_filled_pressed">#313236</color>
+
+    <color name="ivi_informative_active">#02C265</color>
+    <color name="ivi_informative_positive">#0064FF</color>
+    <color name="ivi_informative_negative">#FE3D16</color>
+</resources>
